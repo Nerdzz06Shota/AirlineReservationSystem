@@ -344,7 +344,8 @@ public class AirlineReservationSystem extends JFrame {
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String args[]) 
+{
         SwingUtilities.invokeLater(() -> {
             AirlineReservationSystem frame = new AirlineReservationSystem();
             frame.setVisible(true);
